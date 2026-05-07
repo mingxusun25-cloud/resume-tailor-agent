@@ -1,0 +1,9 @@
+[
+  {
+    "label": "ai_application_intern",
+    "jd_file": "ai_application_intern_jd.md",
+    "materials_dir": "../sample_materials",
+    "expected_keywords": ["Python", "Agent", "自动化"],
+    "expected_projects": ["GitHub Agent Daily", "ResumeTailor Agent"]
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "cases": [
+    {
+      "label": "ai_application_intern",
+      "expected_keywords": [
+        "Python",
+        "Agent",
+        "自动化"
+      ],
+      "matched_keywords": [
+        "Python",
+        "RAG",
+        "Agent",
+        "自动化",
+        "Streamlit"
+      ],
+      "missing_keywords": [],
+      "risk_level": "low",
+      "report_path": "outputs/quality-eval-smoke-1.md",
+      "keyword_recall": 1.0,
+      "project_hit": 1.0,
+      "evidence_presence": 1.0,
+      "risk_score": 1.0,
+      "overall_score": 1.0
+    }
+  ],
+  "summary": {
+    "case_count": 1,
+    "average_keyword_recall": 1.0,
+    "average_project_hit": 1.0,
+    "average_overall_score": 1.0
+  }
+}

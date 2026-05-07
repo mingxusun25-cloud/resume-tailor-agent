@@ -1,0 +1,212 @@
+{
+  "jd_raw": "AI应用实习生，要求 Python、RAG 项目经验。",
+  "jd_parsed": {
+    "job_title": "AI应用实习生",
+    "keywords": [
+      "Python",
+      "RAG"
+    ],
+    "must_have": [
+      "要求 Python、RAG 项目经验"
+    ],
+    "nice_to_have": [],
+    "business_context": [],
+    "target_level": "intern",
+    "resume_focus": [
+      "Python",
+      "RAG"
+    ]
+  },
+  "retrieved_chunks": [
+    {
+      "id": "engineering_background-1",
+      "title": "Engineering Background",
+      "type": "material",
+      "source_file": "sample_materials/engineering_background.md",
+      "raw_text": "Completed simulation-oriented academic work and learned to translate technical tasks into structured deliverables under deadline pressure.",
+      "tags": [],
+      "summary": "Completed simulation-oriented academic work and learned to translate technical tasks into structured deliverables under "
+    },
+    {
+      "id": "engineering_background-2",
+      "title": "Engineering Background",
+      "type": "material",
+      "source_file": "sample_materials/engineering_background.md",
+      "raw_text": "Used tool-assisted workflows to iterate on demos, reports, and presentation materials while keeping outputs inspectable and reproducible.",
+      "tags": [],
+      "summary": "Used tool-assisted workflows to iterate on demos, reports, and presentation materials while keeping outputs inspectable "
+    },
+    {
+      "id": "github_agent_daily-1",
+      "title": "GitHub Agent Daily",
+      "type": "material",
+      "source_file": "sample_materials/github_agent_daily.md",
+      "raw_text": "Built a Python Agent automation workflow for GitHub trending reports and structured summary generation.",
+      "tags": [],
+      "summary": "Built a Python Agent automation workflow for GitHub trending reports and structured summary generation."
+    },
+    {
+      "id": "github_agent_daily-2",
+      "title": "GitHub Agent Daily",
+      "type": "material",
+      "source_file": "sample_materials/github_agent_daily.md",
+      "raw_text": "Implemented retrieval, markdown export, and evidence-oriented content organization for repeatable daily updates.",
+      "tags": [],
+      "summary": "Implemented retrieval, markdown export, and evidence-oriented content organization for repeatable daily updates."
+    },
+    {
+      "id": "github_agent_daily-3",
+      "title": "GitHub Agent Daily",
+      "type": "material",
+      "source_file": "sample_materials/github_agent_daily.md",
+      "raw_text": "Focused on turning scattered project signals into concise, reusable outputs for fast technical scanning.",
+      "tags": [],
+      "summary": "Focused on turning scattered project signals into concise, reusable outputs for fast technical scanning."
+    },
+    {
+      "id": "resume_tailor_project-1",
+      "title": "ResumeTailor Agent",
+      "type": "material",
+      "source_file": "sample_materials/resume_tailor_project.md",
+      "raw_text": "Built a local Python workflow that parses job descriptions and maps them to evidence-backed resume materials.",
+      "tags": [],
+      "summary": "Built a local Python workflow that parses job descriptions and maps them to evidence-backed resume materials."
+    },
+    {
+      "id": "resume_tailor_project-2",
+      "title": "ResumeTailor Agent",
+      "type": "material",
+      "source_file": "sample_materials/resume_tailor_project.md",
+      "raw_text": "Designed a node-based pipeline covering JD parsing, retrieval, resume generation, interview questions, and Markdown export.",
+      "tags": [],
+      "summary": "Designed a node-based pipeline covering JD parsing, retrieval, resume generation, interview questions, and Markdown expo"
+    },
+    {
+      "id": "resume_tailor_project-3",
+      "title": "ResumeTailor Agent",
+      "type": "material",
+      "source_file": "sample_materials/resume_tailor_project.md",
+      "raw_text": "Used Streamlit to expose intermediate evidence, matched reasons, and risk-review results in a debuggable local UI.",
+      "tags": [],
+      "summary": "Used Streamlit to expose intermediate evidence, matched reasons, and risk-review results in a debuggable local UI."
+    }
+  ],
+  "ranked_evidence": [
+    {
+      "chunk_id": "github_agent_daily-1",
+      "score": 2.75320278624508,
+      "reason": "Matches keyword: Python; Overlapping terms: python; Vector score: 0.13",
+      "chunk": {
+        "id": "github_agent_daily-1",
+        "title": "GitHub Agent Daily",
+        "type": "material",
+        "source_file": "sample_materials/github_agent_daily.md",
+        "raw_text": "Built a Python Agent automation workflow for GitHub trending reports and structured summary generation.",
+        "tags": [],
+        "summary": "Built a Python Agent automation workflow for GitHub trending reports and structured summary generation."
+      }
+    },
+    {
+      "chunk_id": "resume_tailor_project-1",
+      "score": 2.750703801420061,
+      "reason": "Matches keyword: Python; Overlapping terms: python; Vector score: 0.13",
+      "chunk": {
+        "id": "resume_tailor_project-1",
+        "title": "ResumeTailor Agent",
+        "type": "material",
+        "source_file": "sample_materials/resume_tailor_project.md",
+        "raw_text": "Built a local Python workflow that parses job descriptions and maps them to evidence-backed resume materials.",
+        "tags": [],
+        "summary": "Built a local Python workflow that parses job descriptions and maps them to evidence-backed resume materials."
+      }
+    },
+    {
+      "chunk_id": "engineering_background-1",
+      "score": 0.5742842505793337,
+      "reason": "Vector score: 0.19",
+      "chunk": {
+        "id": "engineering_background-1",
+        "title": "Engineering Background",
+        "type": "material",
+        "source_file": "sample_materials/engineering_background.md",
+        "raw_text": "Completed simulation-oriented academic work and learned to translate technical tasks into structured deliverables under deadline pressure.",
+        "tags": [],
+        "summary": "Completed simulation-oriented academic work and learned to translate technical tasks into structured deliverables under "
+      }
+    },
+    {
+      "chunk_id": "github_agent_daily-3",
+      "score": 0.027683991532123337,
+      "reason": "Vector score: 0.25",
+      "chunk": {
+        "id": "github_agent_daily-3",
+        "title": "GitHub Agent Daily",
+        "type": "material",
+        "source_file": "sample_materials/github_agent_daily.md",
+        "raw_text": "Focused on turning scattered project signals into concise, reusable outputs for fast technical scanning.",
+        "tags": [],
+        "summary": "Focused on turning scattered project signals into concise, reusable outputs for fast technical scanning."
+      }
+    }
+  ],
+  "resume_output": {
+    "fit_summary": "重点围绕 Python, RAG 组织简历内容",
+    "project_highlights": [
+      "GitHub Agent Daily: Built a Python Agent automation workflow for GitHub trending reports and structured summary generation. Focused on turning scattered project signals into concise, reusable outputs for fast technical scanning.",
+      "ResumeTailor Agent: Built a local Python workflow that parses job descriptions and maps them to evidence-backed resume materials.",
+      "Engineering Background: Completed simulation-oriented academic work and learned to translate technical tasks into structured deliverables under deadline pressure."
+    ],
+    "skills_summary": "Python, RAG",
+    "self_intro": "候选人具备 Python, RAG 相关实践，并能基于真实项目证据对齐该岗位需求。",
+    "matched_requirements": [
+      "Matches keyword: Python; Overlapping terms: python; Vector score: 0.13",
+      "Vector score: 0.19",
+      "Vector score: 0.25"
+    ],
+    "llm_enhanced": false,
+    "constraint_mode": "rule_only"
+  },
+  "interview_output": {
+    "questions": [
+      {
+        "question": "Can you walk through how GitHub Agent Daily was implemented?",
+        "hint": "Built a Python Agent automation workflow for GitHub trending reports and structured summary generation. Focused on turning scattered project signals into concise, reusable outputs for fast technical scanning."
+      },
+      {
+        "question": "Can you walk through how ResumeTailor Agent was implemented?",
+        "hint": "Built a local Python workflow that parses job descriptions and maps them to evidence-backed resume materials."
+      },
+      {
+        "question": "Can you walk through how Engineering Background was implemented?",
+        "hint": "Completed simulation-oriented academic work and learned to translate technical tasks into structured deliverables under deadline pressure."
+      }
+    ]
+  },
+  "gap_output": {
+    "matched_keywords": [
+      "Python"
+    ],
+    "missing_keywords": [
+      "RAG"
+    ],
+    "weak_requirements": [],
+    "gap_level": "medium",
+    "suggestions": [
+      "RAG: 补一段检索增强或知识库问答经历；写清召回、排序、输出链路"
+    ],
+    "suggestion_cards": [
+      {
+        "keyword": "RAG",
+        "action": "补一段检索增强或知识库问答经历",
+        "evidence_hint": "写清召回、排序、输出链路"
+      }
+    ]
+  },
+  "review_output": {
+    "risk_level": "low",
+    "issues": [],
+    "mode": "rule"
+  },
+  "export_path": "outputs/v1-5-smoke-rag.md",
+  "run_log_path": "outputs/v1-5-smoke-rag.json"
+}
