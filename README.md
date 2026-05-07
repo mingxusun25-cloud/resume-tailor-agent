@@ -1,10 +1,20 @@
 # ResumeTailor Agent
 
+JD-driven, evidence-based resume tailoring workflow for AI application and job search scenarios.
+
 面向岗位 JD 的简历定制实验项目。它不是“把 JD 丢给大模型润色一下”的 Prompt Demo，而是一条更可解释、更适合做项目展示的本地 AI 工作流：
 
 `JD 解析 -> 查询计划 -> 素材切块 -> 证据检索 -> 证据排序 -> 简历生成 -> 面试追问 -> 缺口分析 -> 风险审查 -> Markdown/JSON 导出`
 
 这个项目的核心目标是：基于真实经历素材，生成更贴岗、可追溯、风险更低的简历表达结果，并且把中间链路展示出来，方便做求职项目包装、面试讲解和后续迭代。
+
+## Why It Stands Out
+
+- `JD-driven`: 先解析岗位需求，而不是直接做文案润色
+- `Evidence-based`: 先从素材库检索证据，再组织简历表达
+- `Workflow-first`: 拆成 parser / planner / retriever / writer / reviewer 等清晰节点
+- `Demo-friendly`: 同时提供 `CLI + Streamlit + evaluation`，便于演示、复盘和迭代
+- `Risk-aware`: 输出后还有缺口分析和风险审查，不是只追求“生成得像”
 
 ## 项目亮点
 
